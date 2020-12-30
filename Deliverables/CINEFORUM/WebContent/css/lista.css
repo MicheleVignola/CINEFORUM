@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#formInsert{
+	display: none;
+}
+
+.linkFilm{
+	cursor: pointer;
+	color: blue!important;
+	text-decoration: underline blue solid!important;
+}
+
+.modal-footer{
+	visibility: hidden;
+}
+
+img {
+	width: 30%;
+	height: auto;
+}
+
+a#addFilm::after {
+	content: "+";
+	font-size: 110%;
+	color: black;
+	font-weight: bold;
+	padding: 0;	
+}
+
+div#infoFilmLista span{
+	font-size: 110%;
+}
+
+div#infoFilmLista #linkLista{
+	text-align: right;
+	font-size: 100%;
+	display: block;
+}

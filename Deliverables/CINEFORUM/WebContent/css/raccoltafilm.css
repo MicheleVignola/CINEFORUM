@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+img {
+	width: 40%;
+}
+
+.titolo {
+	display: inline-block;
+}

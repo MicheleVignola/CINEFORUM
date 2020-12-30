@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.headerAddList {
+	display: inline-block;
+	font-size: 105%;
+	font-weight: bold;	
+}
+
+img {
+	width: 70%;
+	height: auto;
+}
+
+#commento {
+	word-wrap: break-word;
+}
+
+.font-weight-bold {
+	font-size: 105%;
+}
