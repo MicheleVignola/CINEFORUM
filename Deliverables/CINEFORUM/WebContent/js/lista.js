@@ -10,7 +10,7 @@ function getFilms() {
 		data: "json=" + encodeURIComponent(jsonStr),
 		success: function(result){
 					if(result.esito === false)
-						$("#films").html("nessun film presente con questo titolo");
+						$("#films").html("nessun film presente con questo titolo oppure è già stato aggiunto alla lista");
 					else{
 						$("#films").html("" + getHtmlTitoli(result.lista));
 						$(".modal-footer").css("visibility", "visible");
