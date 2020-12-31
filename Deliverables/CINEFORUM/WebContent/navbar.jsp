@@ -26,7 +26,7 @@
 		      </li>
 	      <% } %>
 	      <li class="nav-item mx-auto">
-	        <a class="nav-link" href="<%= response.encodeURL(getServletContext().getContextPath() + "/ConsultaListe") %>">Consula altre liste</a>
+	        <a class="nav-link" href="<%= response.encodeURL(getServletContext().getContextPath() + "/ConsultaListe") %>">Consulta altre liste</a>
 	      </li>
 	    </ul>
 	    
