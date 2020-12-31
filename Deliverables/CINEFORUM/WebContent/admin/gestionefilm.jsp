@@ -60,7 +60,7 @@
 						</label>
 						<p class="error" id="errorDurata"></p>
 						<label>
-							Foto <input type="file" name="foto" required/>
+							Foto <input type="file" name="foto" accept="image/*" required/>
 						</label><br/>
 						<input type="submit" value="Invia"/>
 					</form>
@@ -101,7 +101,7 @@
 							</label>
 							<p class="error" id="errorDurata"></p>
 							<label>
-								Foto <input type="file" name="foto"/>
+								Foto <input type="file" name="foto" accept="image/*"/>
 							</label><br/>
 							<label>
 								Password admin <input type="password" name="password" required/>

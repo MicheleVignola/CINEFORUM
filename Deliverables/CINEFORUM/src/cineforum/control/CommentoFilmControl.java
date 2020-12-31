@@ -70,7 +70,7 @@ public class CommentoFilmControl extends HttpServlet {
 	 */
 	private String checkForm(HttpServletRequest request) {
 		String commento = request.getParameter("commento");
-
+		
 		if (commento == null || commento.length() < 25 || commento.length() > 255 )
 			return "Il commento deve essere composto da un minimo di 25 caratteri e un massimo di 255";
 		
