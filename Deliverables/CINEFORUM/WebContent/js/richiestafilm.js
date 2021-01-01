@@ -3,7 +3,7 @@ function checkForm(){
 	var commento = richiestaFilm.commento;
 	var spanError; //elemento dove inserire la scritta per l'errore
 	
-	var patternTitolo = /^[a-zA-Z0-9]{1,30}$/g;
+	var patternTitolo = /^[a-zA-Z0-9 ]{1,30}$/g;
 	var patternCommento = /^.{0,255}$/gm;
 	
 	if(!patternTitolo.test(titolo.value)){

@@ -100,7 +100,7 @@ function checkForm(idParent){
 	var dataUscita = $("#"+ idParent + " input[name=dataUscita]").val();
 	var durata = $("#"+ idParent + " input[name=durata]").val();
 
-	var patternTitolo =  /^[a-zA-Z0-9]{1,30}$/g;
+	var patternTitolo =  /^[a-zA-Z0-9 ]{1,30}$/g;
 	var patternDescrizione =  /^.{25,255}$/g;
 	var patternGenere = /^[a-zA-Z0-9]{1,20}$/g;
 	var patternDataUscita =  /^[0-9]{4}[/-]{1}[0-9]{2}[/-]{1}[0-9]{2}$/g; // YYYY/MM/DD
