@@ -93,15 +93,15 @@ public class GestioneFilmControl extends HttpServlet {
 			
 			filmOp.update(film);
 		} else if(action.equals("delete")) {
-			film = filmOp.retrieveAll(FilmDAO.BY_TITLE, request.getParameter("titolo")).get(0); //mi prendo il film col titolo specificato da "titolo"
+			ArrayList<Film> list = filmOp.retrieveAll(FilmDAO.BY_TITLE, request.getParameter("titolo")); //mi prendo il film col titolo specificato da "titolo"
 			
-			if(film == null) { //controllo se è già presente un film col titolo inserito
+			if(list.isEmpty()) { //controllo se è già presente un film col titolo inserito
 				HttpSession session = request.getSession();
 				session.setAttribute("errorDelete", "Film non presente nel sistema");
 				response.sendRedirect(response.encodeURL("admin/gestionefilm.jsp"));
 				return;
 			}
-			
+			film = list.get(0);
 			filmOp.delete(film);
 		}
 		
