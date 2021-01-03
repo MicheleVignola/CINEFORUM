@@ -1,0 +1,155 @@
+{
+  "id": "abee84a7-39ee-4f68-9642-d070086e9b6a",
+  "version": "2.0",
+  "name": "RimozioneAccount",
+  "url": "http://localhost/CINEFORUM/GestioneUtenti",
+  "tests": [{
+    "id": "0500326b-e6b5-4a3f-ad81-a15d2719e15c",
+    "name": "9.8.1",
+    "commands": [{
+      "id": "f363e24b-c34a-4d01-b462-878acaa89dd4",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/GestioneUtenti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aca7cb16-2e22-4314-b765-3103c98f6533",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td > .btn",
+      "targets": [
+        ["css=tr:nth-child(1) > td > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//td[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancella')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "555896e5-c7b3-4e9d-bfdc-5ef813b09171",
+      "comment": "",
+      "command": "click",
+      "target": "name=passwordAdmin",
+      "targets": [
+        ["name=passwordAdmin", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='passwordAdmin']", "xpath:attributes"],
+        ["xpath=//form[@id='deleteForm']/div/label/input", "xpath:idRelative"],
+        ["xpath=//form/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39f171ab-d9c3-46de-afa8-e00dc3fe327b",
+      "comment": "",
+      "command": "type",
+      "target": "name=passwordAdmin",
+      "targets": [
+        ["name=passwordAdmin", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='passwordAdmin']", "xpath:attributes"],
+        ["xpath=//form[@id='deleteForm']/div/label/input", "xpath:idRelative"],
+        ["xpath=//form/div/label/input", "xpath:position"]
+      ],
+      "value": "ciao1234"
+    }, {
+      "id": "78f45582-a2f1-45a4-a8b4-dca8ffb5c408",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//form[@id='deleteForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32fba86a-2907-4000-88d5-904838de15f0",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=error",
+      "targets": [],
+      "value": "La password non corrisponde"
+    }]
+  }, {
+    "id": "15270d88-7323-459d-8e22-8c2edb2bd793",
+    "name": "9.8.2",
+    "commands": [{
+      "id": "53dcb833-1425-4e09-9c0d-8f0ffad673f6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/GestioneUtenti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c27872da-77de-47a7-8d15-b5a512774255",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td > .btn",
+      "targets": [
+        ["css=tr:nth-child(1) > td > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//td[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancella')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bb67e19-e994-4caf-8de1-375a9cd5f442",
+      "comment": "",
+      "command": "click",
+      "target": "name=passwordAdmin",
+      "targets": [
+        ["name=passwordAdmin", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='passwordAdmin']", "xpath:attributes"],
+        ["xpath=//form[@id='deleteForm']/div/label/input", "xpath:idRelative"],
+        ["xpath=//form/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ae0e8b7-18d4-41f0-877e-65ce4f8b8ad1",
+      "comment": "",
+      "command": "type",
+      "target": "name=passwordAdmin",
+      "targets": [
+        ["name=passwordAdmin", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='passwordAdmin']", "xpath:attributes"],
+        ["xpath=//form[@id='deleteForm']/div/label/input", "xpath:idRelative"],
+        ["xpath=//form/div/label/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "00d21d3d-deca-4111-a048-c801c0e3ebd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//form[@id='deleteForm']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a713f4-8346-48c2-ac96-4f2bbe240f26",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Gestione Utenti",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/GestioneUtenti"
+    }]
+  }],
+  "suites": [{
+    "id": "92eed137-effc-4107-8c6e-ac0b14d94792",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0500326b-e6b5-4a3f-ad81-a15d2719e15c"]
+  }],
+  "urls": ["http://localhost/CINEFORUM/GestioneUtenti"],
+  "plugins": []
+}

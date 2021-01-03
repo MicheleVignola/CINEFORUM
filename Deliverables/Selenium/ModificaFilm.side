@@ -1,0 +1,823 @@
+{
+  "id": "e9ce97fd-e864-48e8-b8f8-484d2f60be5f",
+  "version": "2.0",
+  "name": "ModificaFilm",
+  "url": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+  "tests": [{
+    "id": "3d2bc53a-27cd-449e-b58a-3177dd9083f0",
+    "name": "9.7.1",
+    "commands": [{
+      "id": "2f1f25f0-5991-428a-97a4-a97b19bb1469",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a28321ce-34c4-4d03-9c31-68dd12608d82",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5d38ab1-16aa-4dd7-a3e4-a013eab1e1c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "46b77a80-5f32-47fa-88a2-7f7ec2a8991c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(4)",
+      "targets": [
+        ["css=.form-group:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='edit']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f205499d-e046-45cc-afa4-d5c7f100c526",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(4) > label:nth-child(1) > input",
+      "targets": [
+        ["css=.form-group:nth-child(4) > label:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='titolo'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": "Robin Hood La Leggenda di Sherwood"
+    }, {
+      "id": "b2ee7d20-279d-4d19-a44f-6084cbc955f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9aa98f5-01f6-48e0-9715-fc6643b319fb",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "b3d3c1ad-0fec-4f03-9568-85a235484d5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "535e0a57-c584-4015-937b-8e017e5490a6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-group > #errorTitolo",
+      "targets": [],
+      "value": "Il titolo può contenere solo lettere e numeri, inoltre deve essere lungo al massimo 30 caratteri."
+    }]
+  }, {
+    "id": "266e6a20-1120-42c4-8552-3f962e89da4a",
+    "name": "9.7.3",
+    "commands": [{
+      "id": "5a43a50d-507e-44e5-879a-772cbcd07930",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79fce21a-e0ce-412c-8e7d-c0f7795afcd2",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb5c8534-a250-4742-9113-4c6ed8647c57",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "e8e21411-1772-44fe-9c7c-f3fef0fe2f2e",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(3) > textarea",
+      "targets": [
+        ["css=label:nth-child(3) > textarea", "css:finder"],
+        ["xpath=(//textarea[@name='descrizione'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/label[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa90c8b-3e13-4464-9665-c414d28d7597",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15adc6c2-81b9-4e65-b56b-fef0963e3f71",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "93543c66-0bb1-4da9-979e-4df8552ef48b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad69c0a-e3ff-4312-b111-ce1ab40e81b7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-group > #errorDescrizione",
+      "targets": [],
+      "value": "La descrizione deve essere compresa tra i 25 e i 255 caratteri"
+    }]
+  }, {
+    "id": "f95cc90a-619b-4ed3-ab16-09fca691a936",
+    "name": "9.7.4",
+    "commands": [{
+      "id": "cab50d6d-b904-4142-ae0e-0eb0f25e4f7e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa5da18c-65dc-44c8-a134-76060dd42e75",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "820337e6-2b9e-4f4c-b2b4-3ec516723dc8",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "e57e764f-21c9-4199-a207-5b890e21299c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5",
+      "targets": [
+        ["css=.mb-5", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d8374a-ed15-43a5-8df7-00381a77b3c9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group > label:nth-child(5) > input",
+      "targets": [
+        ["css=.form-group > label:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='genere'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label[3]/input", "xpath:position"]
+      ],
+      "value": "Comico!!!!"
+    }, {
+      "id": "88c1f43a-d58d-48b8-b48c-614b6cc269d7",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ea500e-fb7c-46ae-8ad8-4d2c06f383fa",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "f8a17bc0-573f-4a66-ada8-e71a7ef12af7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83316040-eb21-45d5-a025-047eff810db0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-group > #errorGenere",
+      "targets": [],
+      "value": "Il genere deve contenere al massimo 20 caratteri"
+    }]
+  }, {
+    "id": "9de79fc3-4895-46f6-9a1b-2421ef8d4562",
+    "name": "9.7.5",
+    "commands": [{
+      "id": "c7db37de-cfc5-43f5-ab3f-ace7719af005",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "764283f3-39cb-4e2e-b428-1aa75d511701",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca3d7df-20db-4b0e-bda8-925be006d0ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "55252aaf-db88-4a3f-bab0-e843d7ad7136",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(7) > input",
+      "targets": [
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=(//input[@name='dataUscita'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edcd7ff3-d30c-429b-ab96-b46e1ba2fac2",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(7) > input",
+      "targets": [
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=(//input[@name='dataUscita'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label[4]/input", "xpath:position"]
+      ],
+      "value": "03/11/1966"
+    }, {
+      "id": "ed3be42b-9d2d-4526-8ddf-6f55f5dce2af",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbef263c-9900-40c1-bf7a-0cc891041a15",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "aa74fa3f-2500-40ef-b3b2-3c09105f085e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f317665-729e-40e5-a96e-a3198f7fe7ba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-group > #errorDataUscita",
+      "targets": [],
+      "value": "La data di uscita deve avere il seguente formato: YYYY/MM/DD"
+    }]
+  }, {
+    "id": "435cc36f-00be-4800-8ac2-9875f7ab5e51",
+    "name": "9.7.6",
+    "commands": [{
+      "id": "d4ace364-27f5-4096-add5-023a38cb62fc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dda7765c-5290-4a78-bc7e-c018a906c851",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "273a3883-9d07-42f7-a1b3-d3f74056a03e",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "1190c853-ecba-478c-b5b0-fc60e89bddd8",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(9) > input",
+      "targets": [
+        ["css=label:nth-child(9) > input", "css:finder"],
+        ["xpath=(//input[@name='durata'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[5]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label[5]/input", "xpath:position"]
+      ],
+      "value": "110 minuti"
+    }, {
+      "id": "e1f25a43-a1ef-4746-a888-9b004a56b0b8",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14fa8399-f830-4696-9f7a-0f9e1f740f3f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "ce60d2df-c84e-4c99-a121-0df0cb7675da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d850e9b7-2cd1-4432-99ba-2b9e69a8a37a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-group > #errorDurata",
+      "targets": [],
+      "value": "La durata può contenere solo numeri"
+    }]
+  }, {
+    "id": "8086ec64-128c-4651-9eed-bbf252e4921c",
+    "name": "9.7.7",
+    "commands": [{
+      "id": "ded4223e-bb63-4b02-9189-71b43bf7e78e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0c5e9eb-d58c-4d1f-9589-c9d886ac3b27",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7c5ce03-68f9-4555-aa7d-d349c8ef1aec",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "b204b49a-b7a1-402f-b8af-2e9601850e35",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(4) > label:nth-child(1) > input",
+      "targets": [
+        ["css=.form-group:nth-child(4) > label:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='titolo'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": "Hood"
+    }, {
+      "id": "4df62f09-bb1d-421e-a06b-98e7937b1af1",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be05ef8-19ce-4b50-8e18-dfaaa4ca8d2e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "ciao1234"
+    }, {
+      "id": "b34c047d-8db4-4ec5-b5a1-b89f1b84b03e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c88a0328-872c-45ca-a337-8af2a2ad6f56",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=error",
+      "targets": [],
+      "value": "La password non corrisponde"
+    }]
+  }, {
+    "id": "1a9642da-5081-4857-b53e-93b6d1afc3ef",
+    "name": "9.7.2",
+    "commands": [{
+      "id": "cdb54151-43be-454d-a030-e41c58b04060",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0aacb181-c140-4b75-9553-d7e3c7d1d154",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e749eb7-389d-4005-a206-5e56571a613c",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "b03184a4-ad4e-4150-a14a-b907494694e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(4) > label:nth-child(1) > input",
+      "targets": [
+        ["css=.form-group:nth-child(4) > label:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='titolo'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "021ef04f-39f2-48c4-ba71-b3c99e9ad347",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(4) > label:nth-child(1) > input",
+      "targets": [
+        ["css=.form-group:nth-child(4) > label:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='titolo'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": "Circle"
+    }, {
+      "id": "67c70e6e-5b6b-4336-adf1-931c263451bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31929ba9-bbef-4ef6-a369-f023d6f5509e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "811e87b5-4932-44ec-8a55-f0a9b67703a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6e3582-8e89-428e-9816-5365e2df36de",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.col-md:nth-child(2) > .error",
+      "targets": [],
+      "value": "Un film col titolo specificato è già presente nel sistema."
+    }]
+  }, {
+    "id": "eea148dd-4334-42d2-8b33-376f08b5cb31",
+    "name": "9.7.8",
+    "commands": [{
+      "id": "a1ceec99-d772-4f2d-a5c9-823cdaacee83",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7a3e89a-4ebc-4fc1-b28e-9d1becc22551",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fa61690-c90b-4302-b351-fc30ff8ec963",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloEdit",
+      "targets": [
+        ["id=titoloEdit", "id"],
+        ["css=#titoloEdit", "css:finder"],
+        ["xpath=//input[@id='titoloEdit']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "Cloudy"
+    }, {
+      "id": "3b02c744-c00e-4e4c-9fa0-6d0cc9fc72e9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(4) > label:nth-child(1) > input",
+      "targets": [
+        ["css=.form-group:nth-child(4) > label:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='titolo'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": "Hood"
+    }, {
+      "id": "b5c64ddd-cd19-4f34-8327-f79dbef22ac6",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e82a1225-2293-4d6f-b842-8f757c02b6c2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "b62b4a77-4d89-4187-ae0a-0f8c32c583ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(15)",
+      "targets": [
+        ["css=.btn:nth-child(15)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='edit']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Conferma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddcf2497-236f-45bd-873e-679ba016dd55",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Gestione Film",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/admin/gestionefilm.jsp"
+    }]
+  }],
+  "suites": [{
+    "id": "1ddd126a-f40b-4628-8d18-af50e01087ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/CINEFORUM/admin/gestionefilm.jsp"],
+  "plugins": []
+}

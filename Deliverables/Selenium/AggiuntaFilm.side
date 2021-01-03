@@ -1,0 +1,1458 @@
+{
+  "id": "4c02d176-be80-4980-957a-f8729b42e5d9",
+  "version": "2.0",
+  "name": "AggiuntaFilm",
+  "url": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+  "tests": [{
+    "id": "763a913f-b73b-4c30-8364-db281d5d1dea",
+    "name": "9.5.1",
+    "commands": [{
+      "id": "46c0a3a3-8400-46f9-a910-bfdf1746a4e3",
+      "comment": "",
+      "command": "open",
+      "target": "/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cec298a-0c2f-4908-8422-e4fd9e1fe876",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7653c4a4-9a63-4e43-9389-85200ea3cada",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Robin Hood La Leggenda di Sherwood"
+    }, {
+      "id": "90555716-ccdd-421b-880d-9d5a2d3882b0",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac40d8af-336a-455e-a15e-35c152550856",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film narra le vicende di Robin Hood e dei suoi compagni che lottano per difendere la gente dal re Giovanni"
+    }, {
+      "id": "3fd004da-18f4-44fa-9b50-ed670c1949c0",
+      "comment": "",
+      "command": "click",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b956599a-a484-4f6e-9bd0-fd0735088cf8",
+      "comment": "",
+      "command": "type",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "Avventura"
+    }, {
+      "id": "1879649e-624c-4b0f-8b97-834a692368ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ecbd6be-9c92-460e-a2b0-d5274104751a",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "1966/11/03"
+    }, {
+      "id": "18a234cd-b852-46ce-ae21-ae9b10a5277d",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0505edc1-0cae-4241-93c6-47edaf94a906",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "122"
+    }, {
+      "id": "9c6b8242-b0ec-466c-92aa-6552cb926942",
+      "comment": "",
+      "command": "click",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5be1fd3-cad0-4265-9150-ca0048763fcd",
+      "comment": "",
+      "command": "type",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\foto.jpg"
+    }, {
+      "id": "1435699a-36f7-46fb-ace8-2329ab31826e",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d97a7de9-aaef-457a-b44b-381f2f6d48e0",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorTitolo",
+      "targets": [],
+      "value": "Il titolo può contenere solo lettere e numeri, inoltre deve essere lungo al massimo 30 caratteri."
+    }]
+  }, {
+    "id": "98304b48-7f28-4c98-a47b-e36487f25529",
+    "name": "9.5.2",
+    "commands": [{
+      "id": "13bc43d1-d2cc-4c1c-8db8-3b01fda2685d",
+      "comment": "",
+      "command": "open",
+      "target": "/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d00bbf30-bc00-4955-bf22-96496e4cd460",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e1c4c10-0bf3-447b-84c9-bdc7f43f1932",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Robin Hood"
+    }, {
+      "id": "03a38fdf-67a5-4a2e-905d-eb5dcc556c18",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b9c7309-4006-47ef-ad5d-e7d27327008e",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film narra le vicende di Robin Hood e dei suoi compagni che lottano per difendere la gente dal re Giovanni SenzaTerra e i suoi scagnozzi"
+    }, {
+      "id": "11b45033-77b4-49e0-a076-799fca71d5eb",
+      "comment": "",
+      "command": "click",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98082500-1378-4d44-b263-6a2e8a9d443e",
+      "comment": "",
+      "command": "type",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "Avventura"
+    }, {
+      "id": "70519af7-8314-4a99-9947-46ac2502ac94",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e7a1c8c-50df-4949-9166-8f9113350a21",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "1966/11/03"
+    }, {
+      "id": "88bbfc49-755c-432b-93e8-6f07956416d2",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af2667d2-3bc8-4764-a5de-4cf0685a09fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "122"
+    }, {
+      "id": "0d56a071-0a56-4ca1-87f9-3bbd3a32985d",
+      "comment": "",
+      "command": "click",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2747522b-c3a5-48c8-9794-3537402ee527",
+      "comment": "",
+      "command": "type",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\HP EliteBook 745 G2\\Pictures\\foto.jpg"
+    }, {
+      "id": "26cf8f39-a73b-450e-a9cc-7f743d521b4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdacb5d8-c364-4747-a1ce-5be88fcf7496",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mb-5 > .col-md:nth-child(1) > .error",
+      "targets": [],
+      "value": "Un film col titolo specificato è già presente nel sistema."
+    }]
+  }, {
+    "id": "7e8ec6cb-2898-49e4-81d8-304d5f8b8180",
+    "name": "9.5.3",
+    "commands": [{
+      "id": "29ece944-a02c-4543-8311-bca8bc3c4b73",
+      "comment": "",
+      "command": "open",
+      "target": "/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "343c2a9a-775f-44ea-8083-eec24fcb59f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "493fb735-47a7-4c9a-873f-76acd2badfd4",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Titanic"
+    }, {
+      "id": "e8028634-655b-40ef-a9fd-83416eaa2463",
+      "comment": "",
+      "command": "click",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab873127-d6f9-4016-94f2-7562fb9e8fce",
+      "comment": "",
+      "command": "type",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "Drammatico"
+    }, {
+      "id": "0c60dddf-3416-41ad-be7d-c31543898939",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "366712ec-a88c-4d0c-ae2f-d22ab817db44",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "2001/01/15"
+    }, {
+      "id": "43707b88-11a5-4d39-91d3-f0bbc33322b4",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed5e156b-c3b8-42bd-930b-9f4e6d80f114",
+      "comment": "",
+      "command": "click",
+      "target": "id=formInsert",
+      "targets": [
+        ["id=formInsert", "id"],
+        ["css=#formInsert", "css:finder"],
+        ["xpath=//form[@id='formInsert']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ce6803f-8300-4b4f-b9c8-1efacbe6c9c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "145"
+    }, {
+      "id": "929b4708-7121-4d29-a00c-85277334de7f",
+      "comment": "",
+      "command": "click",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11509341-6dfd-4659-9570-8768fbf06ed7",
+      "comment": "",
+      "command": "type",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\HP EliteBook 745 G2\\Pictures\\foto.jpg"
+    }, {
+      "id": "3dc17c41-1175-453e-b3a2-2b085d60e710",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff701eb1-e317-4112-8ccc-eb361aef79cc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=errorDescrizione",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "51cc22d8-9ca6-4b24-bef9-0485663eed85",
+    "name": "9.5.4",
+    "commands": [{
+      "id": "7eab8191-dc44-4585-a7ca-9d0ba38023a7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56fbf93c-fcd1-4ae2-b4a3-143eb8757c6b",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02f8b781-7170-414d-9310-8c83886e612f",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Titanic"
+    }, {
+      "id": "2de25e73-6be2-4b36-acd5-9f61af33e5e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92f4d41f-c182-4166-86bd-d2dd1cde930e",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film narra le vicende del naufragio del Titanic"
+    }, {
+      "id": "26b38656-8b9f-4955-8b5c-743a6583cf0a",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af29a0e-b927-4dee-ac01-04ed893d198b",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "2001/01/15"
+    }, {
+      "id": "7e22e68a-b9b5-4688-a7ea-fa466b205a6b",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7288d1fd-1cb3-4c33-9c89-96e8623dafe1",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "145"
+    }, {
+      "id": "31aa4fed-9531-49a6-95e8-047db37dd97b",
+      "comment": "",
+      "command": "click",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f20fcd2-df8d-414d-837d-38600c80fa1b",
+      "comment": "",
+      "command": "type",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\foto.jpg"
+    }, {
+      "id": "4e0a51c1-9249-4a19-a941-5e799d51e9e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f1798ed-1e24-46f5-95a6-903e655125c7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=errorGenere",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0ccbf1f5-9f01-4764-ae1e-37e3519cb1fd",
+    "name": "9.5.5",
+    "commands": [{
+      "id": "2ea2edc6-cafe-4d7e-9b51-21373ca60da0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c3568f8-7c63-466f-b833-e0a890b3b43d",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e3dfe8b-dcb8-4e95-a61b-214971999c64",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Titanic"
+    }, {
+      "id": "81e3b4c9-5a6b-4db3-b871-689987055ec3",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2d34943-923c-4409-9835-95e46284f23d",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film narra le vicende del naufragio del Titanic"
+    }, {
+      "id": "4aebee11-d20a-485e-b328-e833d3cdcfeb",
+      "comment": "",
+      "command": "click",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7e7ec04-fd8d-43e6-9d6b-ef04c33e10b8",
+      "comment": "",
+      "command": "type",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "Drammatico"
+    }, {
+      "id": "6361d6b5-c410-4033-8650-c5628e25b848",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce61f6e-31dc-4dcb-8461-7a99edb10e69",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "15/01/2001"
+    }, {
+      "id": "22bbfcd0-e08c-4a9b-bdae-499281615c98",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ef999c0-3bae-4cf8-beb9-6d251ed2060a",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "145"
+    }, {
+      "id": "a0b180e4-9a8b-49a0-9cc1-1c322aee6e6e",
+      "comment": "",
+      "command": "click",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f563698e-8933-42f1-8839-558f78b505e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\foto.jpg"
+    }, {
+      "id": "efb0be7b-fd5e-4239-871d-05b20dcf36f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f1e0d94-829d-479c-b255-ceeb16b02728",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorDataUscita",
+      "targets": [],
+      "value": "La data di uscita deve avere il seguente formato: YYYY/MM/DD"
+    }]
+  }, {
+    "id": "2d025764-d3cb-4f73-9072-644ab946116d",
+    "name": "9.5.6",
+    "commands": [{
+      "id": "95a16f69-5281-4854-9885-0648accb9223",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f939c2a-9a02-4543-961f-390c9e76bb2b",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92938cda-c32d-4220-aaba-645eca738f2d",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Titanic"
+    }, {
+      "id": "8903c4f6-64e7-4b12-a797-ccc14d8f477e",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b988ae1-909f-4d6a-91e1-939c60e149da",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film narra le vicende del naufragio del Titanic"
+    }, {
+      "id": "41c3a604-d93b-42f8-aa75-ea8f8fb1483e",
+      "comment": "",
+      "command": "click",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a04efd-bfce-4c45-ba46-8cc3302add61",
+      "comment": "",
+      "command": "type",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "Drammatico"
+    }, {
+      "id": "85e94108-f478-4be3-8520-9a781fb4c3d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a6dae88-4895-4677-80f8-105320a30808",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "2001/01/15"
+    }, {
+      "id": "f9b0590b-a4c3-4498-a307-afbc37420398",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bdbcc7f-90f1-41d3-9347-ac9fef4b02a2",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "145 minuti"
+    }, {
+      "id": "dafd4c2c-7ea4-4029-9b53-cb59df55d7cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35466005-f273-4985-9952-5d70c67f3011",
+      "comment": "",
+      "command": "type",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\foto.jpg"
+    }, {
+      "id": "d5a31140-8ce5-472d-a9b1-e67c6c970583",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c546682a-179f-4d00-8dcb-f3a9ad02040a",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorDurata",
+      "targets": [],
+      "value": "La durata può contenere solo numeri"
+    }]
+  }, {
+    "id": "bbb06284-3c2b-4230-a285-3a2acd7aa0d8",
+    "name": "9.5.7",
+    "commands": [{
+      "id": "461468d2-148f-474f-8f88-33cab9b1128d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "066b3d47-bc58-478d-9cce-396b6c5e8ebd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "814x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ac31391-7e82-4222-a030-d2c8fea0e235",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34f35cae-d249-4245-8742-e6791684e9c8",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Titanic"
+    }, {
+      "id": "81a75fe1-ab8e-4258-88be-4b4ea6a84f0b",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd988e5d-19cf-4a15-9eba-b8a10ac9bd39",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film narra le vicende del naufragio del Titanic"
+    }, {
+      "id": "504bbdfb-49ff-4ca1-aa16-5dc88345c62b",
+      "comment": "",
+      "command": "click",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "718b994a-699b-4a8d-9b67-d0b9b91c50d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "Drammatico"
+    }, {
+      "id": "70631626-650e-40dc-8489-36e00058f7e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a14b3c1c-3562-41f6-a828-0a24a464b3ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "2001/01/15"
+    }, {
+      "id": "6273d8ff-4aa8-46a6-b4a1-1fba45377cea",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c08d95cf-4bee-4465-938e-1f3e5bc55f1e",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "145"
+    }, {
+      "id": "de282bbf-8d68-4219-adc7-baaefd7315c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aab76fd9-f7df-429b-bdfc-29d6117ba6bc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=foto",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "66a72a70-20da-48b5-81df-5df9b757b1c7",
+    "name": "9.5.8",
+    "commands": [{
+      "id": "003a2189-a7b5-4a79-a447-c56451d75db6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f69990d-7604-452e-a0bf-465c06a83f38",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b82e3a1-aa59-4752-8376-a478902706de",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=#formInsert > label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Titanic"
+    }, {
+      "id": "c07ed7d6-78d6-4844-8712-d7894ea05dc9",
+      "comment": "",
+      "command": "click",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e0db646-fe6f-4e08-87ca-2c61829b60e6",
+      "comment": "",
+      "command": "type",
+      "target": "name=descrizione",
+      "targets": [
+        ["name=descrizione", "name"],
+        ["css=label:nth-child(4) > textarea", "css:finder"],
+        ["xpath=//textarea[@name='descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film narra le vicende del naufragio del Titanic"
+    }, {
+      "id": "55cf01f9-36ac-4b1e-9a86-d9b93b632ffb",
+      "comment": "",
+      "command": "click",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c823936-e02c-4207-9be7-0340fef4514b",
+      "comment": "",
+      "command": "type",
+      "target": "name=genere",
+      "targets": [
+        ["name=genere", "name"],
+        ["css=label:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='genere']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "Drammatico"
+    }, {
+      "id": "bfb16c88-98b5-4784-9fe7-9b8ce91c2e21",
+      "comment": "",
+      "command": "click",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cd2ff24-2926-48e3-9467-92a0a0870d65",
+      "comment": "",
+      "command": "type",
+      "target": "name=dataUscita",
+      "targets": [
+        ["name=dataUscita", "name"],
+        ["css=label:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@name='dataUscita']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "2001/01/15"
+    }, {
+      "id": "9c706027-57b8-4acc-8921-26064dd7e3f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31f55737-274f-48ce-97d2-fe5c16093ea1",
+      "comment": "",
+      "command": "type",
+      "target": "name=durata",
+      "targets": [
+        ["name=durata", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='durata']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "145"
+    }, {
+      "id": "7f071504-4bd1-4116-85ef-16f4fc390182",
+      "comment": "",
+      "command": "click",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893b241e-806a-45e0-9b09-ef860696f62d",
+      "comment": "",
+      "command": "type",
+      "target": "name=foto",
+      "targets": [
+        ["name=foto", "name"],
+        ["css=label:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@name='foto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[6]/input", "xpath:idRelative"],
+        ["xpath=//label[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\HP EliteBook 745 G2\\Pictures\\foto.jpg"
+    }, {
+      "id": "3d70454e-7721-413e-b6f7-0d212dc59c95",
+      "comment": "",
+      "command": "click",
+      "target": "id=formInsert",
+      "targets": [
+        ["id=formInsert", "id"],
+        ["css=#formInsert", "css:finder"],
+        ["xpath=//form[@id='formInsert']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8e68b24-8e59-4054-a185-f7345b167255",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(14)",
+      "targets": [
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Invia']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fe85b77-13f3-4e33-afe6-0025ad7c6821",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Gestione Film",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/admin/gestionefilm.jsp"
+    }]
+  }],
+  "suites": [{
+    "id": "24060ba8-b902-4234-b0af-afd0978064d5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["763a913f-b73b-4c30-8364-db281d5d1dea"]
+  }],
+  "urls": ["http://localhost/", "http://localhost/CINEFORUM/admin/gestionefilm.jsp"],
+  "plugins": []
+}

@@ -1,0 +1,269 @@
+{
+  "id": "9a5930ce-8ebb-4b5a-b068-206e0aa7224e",
+  "version": "2.0",
+  "name": "RimozioneFilm",
+  "url": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+  "tests": [{
+    "id": "f5f89e1c-ab76-49cc-ab8c-e7b1c0a5b110",
+    "name": "9.6.1",
+    "commands": [{
+      "id": "b25abcab-4082-47e6-b6f4-41e89f59154e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "566a95fe-e771-4fb2-a87d-c1f33eacc34e",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloDelete",
+      "targets": [
+        ["id=titoloDelete", "id"],
+        ["css=#titoloDelete", "css:finder"],
+        ["xpath=//input[@id='titoloDelete']", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "616ae8ce-1cb0-44b0-88e5-2a2cb6c657e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloDelete",
+      "targets": [
+        ["id=titoloDelete", "id"],
+        ["css=#titoloDelete", "css:finder"],
+        ["xpath=//input[@id='titoloDelete']", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/label/input", "xpath:position"]
+      ],
+      "value": "Tre uomini ed una gamba"
+    }, {
+      "id": "9ed2c991-579e-46a1-b29b-2c89e5e285e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#delete > label:nth-child(5) > input",
+      "targets": [
+        ["css=#delete > label:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95bfc34b-afd2-4890-8b04-64fa3ca78f62",
+      "comment": "",
+      "command": "type",
+      "target": "css=#delete > label:nth-child(5) > input",
+      "targets": [
+        ["css=#delete > label:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "65a01a69-d3df-45e6-a3d2-b1488f4e0b30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(8)",
+      "targets": [
+        ["css=.btn:nth-child(8)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b27b03-8ea9-47d3-ad38-6eae4a8a5739",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(2) .error",
+      "targets": [],
+      "value": "Film non presente nel sistema"
+    }]
+  }, {
+    "id": "6a39ef2e-1d80-40ff-9527-fd578d97c670",
+    "name": "9.6.2",
+    "commands": [{
+      "id": "45bc50d3-45d0-4f2c-bebf-d888215b0a84",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "082f6696-49de-4a06-8f8e-66f85cdcb5a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloDelete",
+      "targets": [
+        ["id=titoloDelete", "id"],
+        ["css=#titoloDelete", "css:finder"],
+        ["xpath=//input[@id='titoloDelete']", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcfc889e-3574-4fbe-b89e-f9306af6f546",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloDelete",
+      "targets": [
+        ["id=titoloDelete", "id"],
+        ["css=#titoloDelete", "css:finder"],
+        ["xpath=//input[@id='titoloDelete']", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/label/input", "xpath:position"]
+      ],
+      "value": "Confessions"
+    }, {
+      "id": "cbec017c-872e-4852-9c61-ccc5bd983ee7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#delete > label:nth-child(5) > input",
+      "targets": [
+        ["css=#delete > label:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f39662ae-e9e1-43a3-a97b-5017491d20b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=delete",
+      "targets": [
+        ["id=delete", "id"],
+        ["css=#delete", "css:finder"],
+        ["xpath=//form[@id='delete']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47060348-e999-49ae-a36d-916ca1bc0b54",
+      "comment": "",
+      "command": "type",
+      "target": "css=#delete > label:nth-child(5) > input",
+      "targets": [
+        ["css=#delete > label:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "ciao1234"
+    }, {
+      "id": "65539dd9-ea3b-4aba-8ef3-948cad822f45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(8)",
+      "targets": [
+        ["css=.btn:nth-child(8)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a20eb8f-fa7a-4366-a4c3-2317165dcbce",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#delete > #error",
+      "targets": [],
+      "value": "La password non corrisponde"
+    }]
+  }, {
+    "id": "fbda0e2b-e0ae-4979-a0f8-499fde206883",
+    "name": "9.6.3",
+    "commands": [{
+      "id": "9b700d4c-dc9c-4a87-9c6f-b6c697abbede",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/admin/gestionefilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "989cfc5b-1681-4678-81fd-92b791590186",
+      "comment": "",
+      "command": "click",
+      "target": "id=titoloDelete",
+      "targets": [
+        ["id=titoloDelete", "id"],
+        ["css=#titoloDelete", "css:finder"],
+        ["xpath=//input[@id='titoloDelete']", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c27d180-4055-4e79-bb3e-3742eed7e8e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=titoloDelete",
+      "targets": [
+        ["id=titoloDelete", "id"],
+        ["css=#titoloDelete", "css:finder"],
+        ["xpath=//input[@id='titoloDelete']", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/label/input", "xpath:position"]
+      ],
+      "value": "Flatliners"
+    }, {
+      "id": "5d8bc685-0bd8-4f3e-a5e9-71b9e42c2871",
+      "comment": "",
+      "command": "click",
+      "target": "css=#delete > label:nth-child(5) > input",
+      "targets": [
+        ["css=#delete > label:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab9401f-8dc5-4fc9-9a79-b73cf82cc2d5",
+      "comment": "",
+      "command": "type",
+      "target": "css=#delete > label:nth-child(5) > input",
+      "targets": [
+        ["css=#delete > label:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "marcantuono"
+    }, {
+      "id": "82e576aa-8ea7-4d0d-b836-961497d1ad5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(8)",
+      "targets": [
+        ["css=.btn:nth-child(8)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='delete']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb05f02e-5be8-4bad-a5f0-8e78bf85dac5",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Gestione Film",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/admin/gestionefilm.jsp"
+    }]
+  }],
+  "suites": [{
+    "id": "8e8255d5-2f22-4342-9429-5305d826e739",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/CINEFORUM/admin/gestionefilm.jsp"],
+  "plugins": []
+}

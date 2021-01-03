@@ -1,0 +1,292 @@
+{
+  "id": "15e8a26d-16e3-4514-96f6-68e9d7be9a50",
+  "version": "2.0",
+  "name": "AggiuntaFilmLista",
+  "url": "http://localhost/CINEFORUM/Lista?user=vyncy98",
+  "tests": [{
+    "id": "e0810305-517d-447d-aa38-be14294440bf",
+    "name": "9.3.1",
+    "commands": [{
+      "id": "36b46ee6-1e20-49ca-a876-54f59d9ae2fe",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/Lista?user=vyncy98",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c643398-7f14-4bc6-b313-8b7737f27c80",
+      "comment": "",
+      "command": "click",
+      "target": "id=addFilm",
+      "targets": [
+        ["id=addFilm", "id"],
+        ["linkText=Aggiungi un film", "linkText"],
+        ["css=#addFilm", "css:finder"],
+        ["xpath=//a[contains(text(),'Aggiungi un film')]", "xpath:link"],
+        ["xpath=//a[@id='addFilm']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b12001-d3e0-4af3-a919-4b46ed9ebc6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=titolo",
+      "targets": [
+        ["id=titolo", "id"],
+        ["css=#titolo", "css:finder"],
+        ["xpath=//input[@id='titolo']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfd01992-46f2-4aff-a66b-ce1171468a67",
+      "comment": "",
+      "command": "type",
+      "target": "id=titolo",
+      "targets": [
+        ["id=titolo", "id"],
+        ["css=#titolo", "css:finder"],
+        ["xpath=//input[@id='titolo']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Robin Hood 2"
+    }, {
+      "id": "53814e61-5e5b-43db-a2d2-1cc81e415e95",
+      "comment": "",
+      "command": "click",
+      "target": "css=label > button",
+      "targets": [
+        ["css=label > button", "css:finder"],
+        ["xpath=//button[@onclick='getFilms()']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/button", "xpath:idRelative"],
+        ["xpath=//label/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cerca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5c94749-fd75-4af3-b04b-b0ed3a699788",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-body:nth-child(2)",
+      "targets": [
+        ["css=.modal-body:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='addModal']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a11ee766-c74d-4086-8f92-993b53bc83d6",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=films",
+      "targets": [],
+      "value": "nessun film presente con questo titolo oppure è già stato aggiunto alla lista"
+    }]
+  }, {
+    "id": "80e514e0-9986-4346-8398-540100bbd10e",
+    "name": "9.3.2",
+    "commands": [{
+      "id": "f041881e-96be-47b8-a93e-aac84b90b01e",
+      "comment": "",
+      "command": "open",
+      "target": "Lista",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/Lista"
+    }, {
+      "id": "24905be1-0633-4547-80a2-f1b81b82c40b",
+      "comment": "",
+      "command": "click",
+      "target": "id=addFilm",
+      "targets": [
+        ["id=addFilm", "id"],
+        ["linkText=Aggiungi un film", "linkText"],
+        ["css=#addFilm", "css:finder"],
+        ["xpath=//a[contains(text(),'Aggiungi un film')]", "xpath:link"],
+        ["xpath=//a[@id='addFilm']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67e1e55e-9f58-4fb4-a499-23430a5a29b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=titolo",
+      "targets": [
+        ["id=titolo", "id"],
+        ["css=#titolo", "css:finder"],
+        ["xpath=//input[@id='titolo']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e712e08-27b5-4e76-8e6b-c48fa327b7c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=titolo",
+      "targets": [
+        ["id=titolo", "id"],
+        ["css=#titolo", "css:finder"],
+        ["xpath=//input[@id='titolo']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Robin Hood"
+    }, {
+      "id": "58153556-6f3f-44f6-86a0-eeb6cf255686",
+      "comment": "",
+      "command": "click",
+      "target": "css=label > button",
+      "targets": [
+        ["css=label > button", "css:finder"],
+        ["xpath=//button[@onclick='getFilms()']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/button", "xpath:idRelative"],
+        ["xpath=//label/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cerca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c67f88-ebf7-4ba9-99ff-305dd9ccde7a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=label > button",
+      "targets": [
+        ["css=label > button", "css:finder"],
+        ["xpath=//button[@onclick='getFilms()']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/button", "xpath:idRelative"],
+        ["xpath=//label/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cerca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6950e352-4d47-4be7-9ce0-7b58b9a396f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=label > button",
+      "targets": [
+        ["css=label > button", "css:finder"],
+        ["xpath=//button[@onclick='getFilms()']", "xpath:attributes"],
+        ["xpath=//div[@id='searchFilm']/label/button", "xpath:idRelative"],
+        ["xpath=//label/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cerca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d458ab6-69a2-475a-8665-53172d6fc4e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=10",
+      "targets": [
+        ["id=10", "id"],
+        ["linkText=Robin Hood", "linkText"],
+        ["css=#\\31 0", "css:finder"],
+        ["xpath=//a[contains(text(),'Robin Hood')]", "xpath:link"],
+        ["xpath=//a[@id='10']", "xpath:attributes"],
+        ["xpath=//span[@id='films']/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Robin Hood')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dedc0f32-2cb5-47b1-9ac5-8d01327335e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=voto",
+      "targets": [
+        ["name=voto", "name"],
+        ["css=#formInsert > label:nth-child(4) > select", "css:finder"],
+        ["xpath=//select[@name='voto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f646ae-b408-4271-b5e7-b031a6522853",
+      "comment": "",
+      "command": "select",
+      "target": "name=voto",
+      "targets": [],
+      "value": "label=7"
+    }, {
+      "id": "b0340426-d192-4d4a-867c-b39d5809c63e",
+      "comment": "",
+      "command": "click",
+      "target": "name=voto",
+      "targets": [
+        ["name=voto", "name"],
+        ["css=#formInsert > label:nth-child(4) > select", "css:finder"],
+        ["xpath=//select[@name='voto']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d35312d-684f-416d-a9d7-841a22ddc804",
+      "comment": "",
+      "command": "click",
+      "target": "name=categoria",
+      "targets": [
+        ["name=categoria", "name"],
+        ["css=#formInsert > label:nth-child(6) > select", "css:finder"],
+        ["xpath=//select[@name='categoria']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/select", "xpath:idRelative"],
+        ["xpath=//label[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c915b8b-e8d6-4013-8223-15b53091cbf5",
+      "comment": "",
+      "command": "select",
+      "target": "name=categoria",
+      "targets": [],
+      "value": "label=visti"
+    }, {
+      "id": "3935a925-373a-4df8-9aac-1e9967ec3ee0",
+      "comment": "",
+      "command": "click",
+      "target": "name=categoria",
+      "targets": [
+        ["name=categoria", "name"],
+        ["css=#formInsert > label:nth-child(6) > select", "css:finder"],
+        ["xpath=//select[@name='categoria']", "xpath:attributes"],
+        ["xpath=//form[@id='formInsert']/label[2]/select", "xpath:idRelative"],
+        ["xpath=//label[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bae71f2c-b7b1-4d6f-b816-fb11b69434c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(3) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(3) > .btn-primary", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='addModal']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f0b0f0b-b470-4553-9d89-4daa9f109dac",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Lista",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/Lista"
+    }]
+  }],
+  "suites": [{
+    "id": "ac2543c5-d299-48e1-8484-2787608afe64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e0810305-517d-447d-aa38-be14294440bf"]
+  }],
+  "urls": ["http://localhost/CINEFORUM/Lista?user=vyncy98"],
+  "plugins": []
+}

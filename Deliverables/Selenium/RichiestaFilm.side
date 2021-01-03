@@ -1,0 +1,301 @@
+{
+  "id": "44c5a63f-c9d9-48d6-a044-712c749e30b2",
+  "version": "2.0",
+  "name": "RichiestaFilm",
+  "url": "http://localhost/CINEFORUM/user/richiestafilm.jsp",
+  "tests": [{
+    "id": "3161b9e1-7db0-48fb-9492-50784c666797",
+    "name": "9.10.1",
+    "commands": [{
+      "id": "1adadb49-0e94-4db3-a643-293152e36b64",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/user/richiestafilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d61b18-1fe9-4122-b4e8-ed6f903b8e3a",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c933d9ae-f67e-4fce-93a4-778d480d6e75",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Taken._.2"
+    }, {
+      "id": "1085e7f1-34fa-498b-8422-9170c4f8082a",
+      "comment": "",
+      "command": "click",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a45455cd-d399-4fc1-9b0a-1973a5900b25",
+      "comment": "",
+      "command": "type",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film non può non esserci"
+    }, {
+      "id": "5596ea53-c321-421e-8cad-202a655a499b",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1cb8e26-6cfc-4c66-8314-69f83c1c9666",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorTitolo",
+      "targets": [],
+      "value": "Il titolo non deve essere vuoto e avere al massimo 30 caratteri"
+    }]
+  }, {
+    "id": "33d20d47-0279-4de6-b37c-7d14128cdb26",
+    "name": "9.10.2",
+    "commands": [{
+      "id": "a1d165df-8b65-4c83-8572-980eb88447cb",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/user/richiestafilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2250cc5c-434f-4cec-b6f1-acf093ed3d68",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d02315-8895-4f9f-9077-80b1755cd540",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Circle"
+    }, {
+      "id": "0e8c2995-31de-4590-918f-63b4e7901bfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7683f523-2bca-48b7-b749-d0641876569c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.container > .error",
+      "targets": [],
+      "value": "Film già presente"
+    }]
+  }, {
+    "id": "354552d6-895c-49c0-a969-10e41e34d855",
+    "name": "9.10.3",
+    "commands": [{
+      "id": "8b61ee42-158e-4c65-8546-f5d47dd622a9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/user/richiestafilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66277596-a222-43ad-adcb-185ef03b9712",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8361eaf1-d823-416b-b690-84cef7541421",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Taken2"
+    }, {
+      "id": "bd3a5407-5166-42a2-840d-93f5ec7018ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34509bb5-087b-4fa4-9b10-9d261f7216e5",
+      "comment": "",
+      "command": "type",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu blandit enim, nec dictum ligula. Quisque sagittis mauris et vehicula pretium. Mauris interdum lectus ex, pharetra consectetur massa dignissim nec. Mauris eget lacinia magna, eget feugiat nulla. Etiam quis volutpat sem. Aenean vitae nisi.ex, pharetra consectetur massa dignissim nec. Mauris eget lacinia magna, eget feugiat nulla"
+    }, {
+      "id": "4c2e5b12-b98c-401e-8846-1aca1c73c6b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bee1db9d-b375-4b9a-89a8-83366e363613",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorCommento",
+      "targets": [],
+      "value": "Il commento deve avere al massimo 255 caratteri"
+    }]
+  }, {
+    "id": "fd83e11a-2b96-4507-abdc-db0d3c8e25cf",
+    "name": "9.10.4",
+    "commands": [{
+      "id": "7a20db8c-75d6-460f-9c87-5e5a8689a155",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/user/richiestafilm.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31e693f8-60b4-4416-9f6a-0c4048f9d026",
+      "comment": "",
+      "command": "click",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "017679eb-9aa6-4dd0-870a-c3c930a7e1f5",
+      "comment": "",
+      "command": "type",
+      "target": "name=titolo",
+      "targets": [
+        ["name=titolo", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='titolo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Taken"
+    }, {
+      "id": "fa02fdb0-3067-4a2b-b7f9-3ed0dfab7698",
+      "comment": "",
+      "command": "click",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0722221a-8697-4969-adca-327933f1dc80",
+      "comment": "",
+      "command": "type",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Questo film non può non esserci"
+    }, {
+      "id": "3d2e841d-de71-45ef-a4d6-3e47c174aaa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf96ec0b-7110-4e6e-94b1-14a347e5e4a7",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Richiesta aggiunta film",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/user/richiestafilm.jsp"
+    }]
+  }],
+  "suites": [{
+    "id": "6e492026-0193-459a-b42e-e1b4289c447b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3161b9e1-7db0-48fb-9492-50784c666797"]
+  }],
+  "urls": ["http://localhost/CINEFORUM/user/richiestafilm.jsp"],
+  "plugins": []
+}

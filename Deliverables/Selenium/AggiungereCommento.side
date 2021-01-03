@@ -1,0 +1,129 @@
+{
+  "id": "d30bc5f7-b4b6-4c09-b928-fa60c18d53e5",
+  "version": "2.0",
+  "name": "AggiungereCommento",
+  "url": "http://localhost/CINEFORUM/Film?film=3",
+  "tests": [{
+    "id": "6b9c3771-6cb4-408d-9194-3a4ca40ec204",
+    "name": "9.4.1",
+    "commands": [{
+      "id": "5b80d51b-9ce0-4935-a5a7-5de12411a4e8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/Film?film=3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "083507fe-432f-4c2f-b366-87c954df3013",
+      "comment": "",
+      "command": "click",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//div[@id='commenti']/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53bfaeda-3d2c-43ec-8555-1b637fa320bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//div[@id='commenti']/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Bel film"
+    }, {
+      "id": "ef5a1111-98ba-41b1-833f-c81cea8b5906",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='commenti']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "885cedc6-69cc-40b6-abb2-c47c217ed76c",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorCommento",
+      "targets": [],
+      "value": "Il commento deve avere tra i 25 e i 255 caratteri"
+    }]
+  }, {
+    "id": "4006165b-e93e-4b61-a102-0a5e6af7bcf2",
+    "name": "9.4.2",
+    "commands": [{
+      "id": "3915b2eb-03eb-43ea-ac36-377cf4504140",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/Film?film=3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0240e0f-e330-466c-bdb5-2d59b0929fb1",
+      "comment": "",
+      "command": "click",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//div[@id='commenti']/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e0c638f-15a6-4d17-9e5f-75fcd2fc01fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=commento",
+      "targets": [
+        ["name=commento", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='commento']", "xpath:attributes"],
+        ["xpath=//div[@id='commenti']/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Bel film. Lo consiglio a chi piace il genere ma è adatto anche a coloro che vogliono avvicinarsi a questi tipi di film"
+    }, {
+      "id": "e5749255-923e-4a3a-be27-77f878e0b54d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='commenti']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0920958-0a16-4fdf-9ca7-a72f98457edc",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Circle",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/Film?film=3"
+    }]
+  }],
+  "suites": [{
+    "id": "0621e140-2045-40da-8051-f42c00c06ba7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6b9c3771-6cb4-408d-9194-3a4ca40ec204"]
+  }],
+  "urls": ["http://localhost/CINEFORUM/Film?film=3"],
+  "plugins": []
+}

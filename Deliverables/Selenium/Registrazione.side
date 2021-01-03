@@ -1,0 +1,888 @@
+{
+  "id": "fba682a5-96d6-428c-a8a9-9bd318e5653f",
+  "version": "2.0",
+  "name": "Registrazione",
+  "url": "http://localhost/CINEFORUM/signup.jsp",
+  "tests": [{
+    "id": "e96f14bb-c5f8-48be-b8f8-c4c2d3c23aba",
+    "name": "9.1.1",
+    "commands": [{
+      "id": "7aee29c2-0372-4a13-9266-9adbd1a0372f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/signup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e92f7431-a66b-4550-b2e3-efec353fd77a",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0a9ce08-7729-4c68-8e4f-c031b2f57b40",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.vignola11"
+    }, {
+      "id": "ceceba33-abe0-467e-81cb-39751dc4fcee",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c62d11f7-6f0d-41f1-b14a-be229fe484b9",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "m.vignola1@studenti.unisa.it"
+    }, {
+      "id": "55e502f4-ec28-4793-a892-c5bc906ed5a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d6b8aef-e000-4ddf-9f39-8b1dd158dd26",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "b48621a4-7cb7-4550-88e4-5a1edd93a646",
+      "comment": "",
+      "command": "click",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d474510-e4e4-4236-a6f2-f17ee35d3911",
+      "comment": "",
+      "command": "type",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "ded14f05-2a78-447c-a8b1-0c1535e915be",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(13)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81e47f73-3bb3-4ba0-9d20-a525f5f85365",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorSign",
+      "targets": [],
+      "value": "Utente già presente"
+    }]
+  }, {
+    "id": "7d85d517-7d4e-41c5-819e-cf092b3527a0",
+    "name": "9.1.2",
+    "commands": [{
+      "id": "c28ea096-d213-4f73-b1e3-611dd5eaa0f9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/signup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b9053a6-297c-4d48-bc82-4a08a2252574",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef6dbf61-c65c-4eeb-9c4f-2b994d7d1564",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.vignola11?"
+    }, {
+      "id": "03bf9659-b4b2-4455-b1d4-0f2c98509047",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a35e8451-1d5e-4ea3-a7ed-25b99b46a934",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "m.vignola1@studenti.unisa.it"
+    }, {
+      "id": "33b2678f-7ae0-4935-8f13-71408bd38c25",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dc47d26-0579-4ff3-a052-78d4e7f5cb35",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "8df3d1ed-db5b-4162-891e-253588e39442",
+      "comment": "",
+      "command": "click",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8949cea7-8379-448b-acf0-c73ff04c3411",
+      "comment": "",
+      "command": "type",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "10eb8255-d0ce-4e2f-bd1e-1c207de2927f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(13)",
+      "targets": [
+        ["css=input:nth-child(13)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d64ff48-3380-4602-9fc2-617682eeb1f9",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorUsername",
+      "targets": [],
+      "value": "L'username:\\n-deve essere lungo tra i 5 e 20 caratteri;\\n-può contenere solo lettere, numeri e caratteri speciali come \".\" \"_\" \"-\")"
+    }]
+  }, {
+    "id": "68ec5ec2-065b-41cf-a84b-c8fd5470dca1",
+    "name": "9.1.3",
+    "commands": [{
+      "id": "fddbef3c-00ae-4e7d-89da-3fb33bd2f2ad",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/signup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "421963ab-be55-4740-8150-1e21f232bfc7",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "551ba7bb-8a13-47e5-9129-8f92d7be0e3c",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.vignola11"
+    }, {
+      "id": "08943326-6ea9-4525-a209-e05404fa4f50",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49bd64b5-c923-4270-bff4-877bfd946674",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "m.vignola1@studenti.unisa.it"
+    }, {
+      "id": "858a0070-791c-4912-beb1-8a8893b38d94",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b22a42b-7e46-49ef-bfde-83e4d95758da",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "3c1d0a8a-a826-4995-a73d-6c8deeaf55f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d69a3d7a-3ca4-4988-b8eb-08d51a47696c",
+      "comment": "",
+      "command": "type",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "aec98372-cc51-4e2f-a0df-b958a03c4605",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(13)",
+      "targets": [
+        ["css=input:nth-child(13)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c0512e-af64-4256-ad7e-b825c9a993b8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorSign",
+      "targets": [],
+      "value": "Email già presente"
+    }]
+  }, {
+    "id": "46ce3abc-6c6a-4c3d-81e0-e3472c5cf963",
+    "name": "9.1.4",
+    "commands": [{
+      "id": "a70bc575-a26e-43cb-9d83-f85622be3e71",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/signup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1ca4899-2649-4e36-8ba6-0d6d4d07c6b5",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b211fb6-29c8-49d1-894c-4fc575b78c28",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.vignola13"
+    }, {
+      "id": "39f47d3a-b335-458b-b2d2-ce0deb014271",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf86bb7-aaf2-4848-8830-f962cf727f9f",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "mvignola11studenti.unis@it"
+    }, {
+      "id": "a157d64a-d2ab-4eaf-8e1d-623a28f75294",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "183d3edb-a502-4cf6-bccb-c1c4f9bcb0c7",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "200faa7e-2200-4fae-90a3-6d2aed42ebde",
+      "comment": "",
+      "command": "click",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6940ef09-e746-4aae-8313-cae9c633ee85",
+      "comment": "",
+      "command": "type",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "a7a6d5a7-a441-4e65-b5dd-5f0233dcaaf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(13)",
+      "targets": [
+        ["css=input:nth-child(13)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "650b02db-757b-4715-98e7-628a884aa83e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorEmail",
+      "targets": [],
+      "value": "L'email non rispetta il formato standard."
+    }]
+  }, {
+    "id": "6e2d9d72-97a1-4d3a-86be-e062c85a3c33",
+    "name": "9.1.5",
+    "commands": [{
+      "id": "38130903-d669-4d52-ba11-1fee894763cc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/signup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81cdce97-e55e-4b7f-abb6-e689e7ef1fbb",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f660d3-c694-417f-b074-b3ac7c06ec60",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.vignola14"
+    }, {
+      "id": "cc15a3ef-2934-4dec-8d4e-08848bc8f262",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82a56fbe-3010-4294-82db-a6a5aa5421cc",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "m.vignola14@studenti.unisa.it"
+    }, {
+      "id": "26173bee-f4d3-4169-b33a-08e63e932eb8",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a906bbe-78c8-4366-820c-cdee9a3ff20e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "prova123!"
+    }, {
+      "id": "00839155-7c6c-4651-8613-11b3ddc471ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd24405-636b-4ef6-830c-1c6c5f3f109d",
+      "comment": "",
+      "command": "type",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "prova123!"
+    }, {
+      "id": "c1ce4aa9-4482-4806-b7b7-aa3368d233f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(13)",
+      "targets": [
+        ["css=input:nth-child(13)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7da6db65-fa45-4b48-9ca2-55fb7c2ea437",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorPassword",
+      "targets": [],
+      "value": "La password:\\n-deve essere lunga tra gli 8 e 20 caratteri;\\n-può contenere solo lettere, numeri e caratteri come \".\")"
+    }]
+  }, {
+    "id": "cff925b5-3667-4b6e-9b84-1b91f2402320",
+    "name": "9.1.6",
+    "commands": [{
+      "id": "2c9a382c-6f0f-47f8-a1c5-0edfa8e3488c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/signup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ec2471c-b630-4a2a-875e-215a0a4596e3",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a080f1c-a077-4cac-bce3-923517c4570d",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.vignola14"
+    }, {
+      "id": "fb292f70-d4fb-4f38-bd36-66a164dd0034",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84c278f4-fd5a-4296-a854-19380fa18ecd",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "m.vignola14@studenti.unisa.it"
+    }, {
+      "id": "e9614e1c-c1fd-492c-85fa-af541c7f6173",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f412abe5-6abb-4630-b45e-9837949001cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "9aeee783-0624-4557-9d0b-04eb494d4ecf",
+      "comment": "",
+      "command": "click",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3bb63a5-b2f6-485d-9f24-73fefcf3538f",
+      "comment": "",
+      "command": "type",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "prova1234"
+    }, {
+      "id": "02999858-68b5-4521-bc1c-fa935435d0d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(13)",
+      "targets": [
+        ["css=input:nth-child(13)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8136b394-e762-4fb6-9f71-fd0e748da289",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorRipetiPassword",
+      "targets": [],
+      "value": "Le password non corrispondono"
+    }]
+  }, {
+    "id": "5c6916e6-6fde-4da5-9879-bedf67b7eb51",
+    "name": "9.1.7",
+    "commands": [{
+      "id": "d05f0fdf-ee87-446b-9c99-f929b7b25221",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CINEFORUM/signup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d361a7a0-6d9d-4e7a-bee5-cc433317b897",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efb72e43-db9e-4752-83cf-23575c6bc620",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.vignola13"
+    }, {
+      "id": "126ddd79-f8c4-453a-bff0-88182e82a551",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c07d3c-4091-48d0-b5a6-f66d5259935d",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "m.vignola13@studenti.unisa.it"
+    }, {
+      "id": "911114c8-4c3a-4441-bf87-f4b8d5c43c5d",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4bfac2-005d-4bbb-99c2-d08ef4767ad0",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "77351545-8a7b-4b3f-b4af-df5765364b5a",
+      "comment": "",
+      "command": "click",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68e30ec2-c227-4b2d-b14c-c0f12ccc66bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=ripetiPassword",
+      "targets": [
+        ["name=ripetiPassword", "name"],
+        ["css=label:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@name='ripetiPassword']", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "prova123"
+    }, {
+      "id": "aa27d0a1-7c18-4b85-8b78-0cc975a23df3",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(13)",
+      "targets": [
+        ["css=input:nth-child(13)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc5831ed-fb95-43ed-b29c-ae76805ac8eb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "homepage",
+      "targets": [],
+      "value": "http://localhost/CINEFORUM/homepage.jsp"
+    }]
+  }],
+  "suites": [{
+    "id": "c0f43f3d-dc77-4c19-92a8-8a340871299e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e96f14bb-c5f8-48be-b8f8-c4c2d3c23aba"]
+  }],
+  "urls": ["http://localhost/CINEFORUM/signup.jsp"],
+  "plugins": []
+}
