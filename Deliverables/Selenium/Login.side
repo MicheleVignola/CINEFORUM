@@ -2,7 +2,7 @@
   "id": "14784978-4076-4c22-a9df-fde96c990f9d",
   "version": "2.0",
   "name": "Login",
-  "url": "http://localhost/CINEFORUM/login.jsp",
+  "url": "http://localhost:8080/CINEFORUM/login.jsp",
   "tests": [{
     "id": "b9cc493e-5ba1-40f9-9a1c-d328907c5a45",
     "name": "9.2.1",
@@ -10,27 +10,8 @@
       "id": "79668901-c398-400e-b934-6f0ab8050683",
       "comment": "",
       "command": "open",
-      "target": "http://localhost/CINEFORUM/login.jsp",
+      "target": "http://localhost:8080/CINEFORUM/login.jsp",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "e6d7835f-4823-400b-80d2-caf83afb1642",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1050x840",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "07ca0afa-bf0a-4587-9385-8fb4291da9b9",
-      "comment": "",
-      "command": "click",
-      "target": "name=user",
-      "targets": [
-        ["name=user", "name"],
-        ["css=label:nth-child(1) > input", "css:finder"],
-        ["xpath=//input[@name='user']", "xpath:attributes"],
-        ["xpath=//input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "cd28bafd-c815-4f8d-9bda-6554f211b84f",
@@ -92,6 +73,13 @@
         ["xpath=//label[2]/input", "xpath:position"]
       ],
       "value": "${KEY_ENTER}"
+    }, {
+      "id": "55f1bb7e-61b3-4f8a-bef3-3d3714b39624",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [],
+      "value": "Username o password non validi"
     }]
   }, {
     "id": "1a08ae36-8ff0-401a-af1d-5a70c8a2ff4e",
@@ -100,30 +88,11 @@
       "id": "19452866-e709-43a0-ba27-6d1d3b39bec1",
       "comment": "",
       "command": "open",
-      "target": "http://localhost/CINEFORUM/login.jsp",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "32abaf35-4fe7-4d19-9569-24e717f879de",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1050x840",
+      "target": "http://localhost:8080/CINEFORUM/login.jsp",
       "targets": [],
       "value": ""
     }, {
       "id": "a06dccdd-cbc1-48e6-be96-28c5c7093f82",
-      "comment": "",
-      "command": "click",
-      "target": "name=user",
-      "targets": [
-        ["name=user", "name"],
-        ["css=label:nth-child(1) > input", "css:finder"],
-        ["xpath=//input[@name='user']", "xpath:attributes"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4fe75182-b549-456e-91c6-524c565d8833",
       "comment": "",
       "command": "click",
       "target": "name=user",
@@ -182,6 +151,13 @@
         ["xpath=//label[2]/input", "xpath:position"]
       ],
       "value": "${KEY_ENTER}"
+    }, {
+      "id": "96685613-de9b-4fdc-85c6-8e90a9cd552b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [],
+      "value": "Username o password non validi"
     }]
   }, {
     "id": "adb06652-960a-4fae-9633-b7ce4ca74d60",
@@ -190,27 +166,8 @@
       "id": "c070d29a-5a4c-442d-89e8-5db8605718e4",
       "comment": "",
       "command": "open",
-      "target": "http://localhost/CINEFORUM/login.jsp",
+      "target": "http://localhost:8080/CINEFORUM/login.jsp",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "d8e99b49-406d-4c12-ba74-2f69c276f054",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1050x840",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "b055c94b-6cd2-44db-932d-a8b2fd2c698c",
-      "comment": "",
-      "command": "click",
-      "target": "name=user",
-      "targets": [
-        ["name=user", "name"],
-        ["css=label:nth-child(1) > input", "css:finder"],
-        ["xpath=//input[@name='user']", "xpath:attributes"],
-        ["xpath=//input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "f82e1f85-1b1c-4851-a777-0ed9a8f25b92",
@@ -272,6 +229,13 @@
         ["xpath=//label[2]/input", "xpath:position"]
       ],
       "value": "${KEY_ENTER}"
+    }, {
+      "id": "27082f5d-5772-43b3-848c-c0d965f8ed21",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "homepage",
+      "targets": [],
+      "value": "http://localhost:8080/CINEFORUM/homepage.jsp"
     }]
   }],
   "suites": [{
@@ -282,6 +246,6 @@
     "timeout": 300,
     "tests": []
   }],
-  "urls": ["http://localhost/CINEFORUM/login.jsp"],
+  "urls": ["http://localhost/CINEFORUM/login.jsp", "http://localhost:8080/CINEFORUM/login.jsp"],
   "plugins": []
 }
